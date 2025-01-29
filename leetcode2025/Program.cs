@@ -1,6 +1,6 @@
 ﻿using leetcode2025.Problems.Easy;
 using leetcode2025.Problems.Medium;
 
-bool i = ValidParentheses.IsValid("(){}}{");
+var i = ReverseInteger.Reverse(6469);
 
 Console.WriteLine(i);
