@@ -1,6 +1,6 @@
 ﻿using leetcode2025.Problems.Easy;
 using leetcode2025.Problems.Medium;
 
-var i = ReverseInteger.Reverse(6469);
+var i = ClimbingStairs.ClimbStairs(45);
 
 Console.WriteLine(i);
