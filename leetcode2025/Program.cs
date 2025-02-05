@@ -1,8 +1,6 @@
 ﻿using leetcode2025.Problems.Easy;
 using leetcode2025.Problems.Medium;
 
-int[] nums = [0, 1, 2, 2, 3, 0, 4, 2];
+bool equal = OneStringSwap.AreAlmostEqual("djrxsradfumetmknyvsyydhnibbtvphmhcjmeemgczdjttkbmayivbfowsnlhytqy", "djrxsradfumetmknxvsyydhnibbtvphmhcjmeemgcydjttkbmayivbfowsnlhytqy");
 
-RemoveElement.RemoveTheElement(nums, 2);
-
-Console.WriteLine(nums);
+Console.WriteLine(equal);
