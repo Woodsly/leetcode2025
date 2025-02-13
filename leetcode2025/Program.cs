@@ -1,6 +1,6 @@
 ﻿using leetcode2025.Problems.Easy;
 using leetcode2025.Problems.Medium;
 
-bool equal = OneStringSwap.AreAlmostEqual("djrxsradfumetmknyvsyydhnibbtvphmhcjmeemgczdjttkbmayivbfowsnlhytqy", "djrxsradfumetmknxvsyydhnibbtvphmhcjmeemgcydjttkbmayivbfowsnlhytqy");
+var i = Combinations.Combine(4, 2);
 
-Console.WriteLine(equal);
+Console.WriteLine(i);
