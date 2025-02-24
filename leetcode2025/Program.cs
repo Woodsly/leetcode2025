@@ -2,6 +2,6 @@
 using leetcode2025.Problems.Medium;
 
 
-var i = LetterCombinationsOfPhoneNumber.LetterCombinations("23");
+var i = SubSetsII.SubsetsWithDup([1,2,2]);
 
 Console.WriteLine(i);
