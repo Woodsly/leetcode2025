@@ -2,6 +2,6 @@
 using leetcode2025.Problems.Medium;
 
 
-var i = SubSetsII.SubsetsWithDup([1,2,2]);
+var i = Subsets.SubsetsSolver([1,2,3]);
 
 Console.WriteLine(i);
