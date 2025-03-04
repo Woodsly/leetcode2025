@@ -2,6 +2,6 @@
 using leetcode2025.Problems.Medium;
 
 
-var i = PartitionArrayPivot.PivotArray([9, 12, 5, 10, 14, 3, 10], 10);
+var i = PowerOf3.IsPowerOfThree(27);
 
 Console.WriteLine(i);
