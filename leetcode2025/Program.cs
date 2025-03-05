@@ -2,6 +2,6 @@
 using leetcode2025.Problems.Medium;
 
 
-var i = PowerOf3.IsPowerOfThree(27);
+var i = CountColoredCells.ColoredCells(5);
 
 Console.WriteLine(i);
