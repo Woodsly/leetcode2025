@@ -2,6 +2,6 @@
 using leetcode2025.Problems.Medium;
 
 
-var i = FindMissingAndRepeatedValues.FindMissingRepeatedValues([[9, 1, 7], [8, 9, 2], [3, 4, 6]]);
+var i = GreatestCommonDivisorofStrings.GcdOfStrings("TAUXXTAUXXTAUXXTAUXXTAUXX", "TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX");
 
 Console.WriteLine(i);
