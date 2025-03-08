@@ -8,35 +8,59 @@ namespace leetcode2025.Problems.Easy
 {
     public static class MinimumRecolorstoGetKConsBlocks
     {
+        //public static int MinimumRecolors(string blocks, int k)
+        //{
+        //    int n = blocks.Length;
+
+        //    List<int> operationList = new List<int>();
+
+        //    if (k > n)
+        //    {
+        //        return -1;
+        //    }
+
+        //    int index = n - k;
+
+        //    for (int i = 0; i <= index; i++)
+        //    {
+        //        int count = 0;
+        //        foreach (char x in blocks.Substring(i, k))
+        //        {
+        //            if (x == 'B')
+        //            {
+        //                count++;
+        //            }
+        //        }
+        //        operationList.Add(count);
+        //    }
+
+        //    return k - operationList.Max();
+        //}
+
         public static int MinimumRecolors(string blocks, int k)
         {
-            int minOperations = 0;
+            int left = 0;
+            int recolor = 0;
+            int res = k;
 
-            int n = blocks.Length;
-
-            List<int> operationList = new List<int>();
-
-            if (k > n)
+            for (int right = 0; right < blocks.Length; right++)
             {
-                return -1;
-            }
-
-            int index = n - k;
-
-            for (int i = 0; i <= index; i++)
-            {
-                int count = 0;
-                foreach (char x in blocks.Substring(i, k))
+                if (blocks[right] == 'W')
                 {
-                    if (x == 'B')
-                    {
-                        count++;
-                    }
+                    recolor++;
                 }
-                operationList.Add(count);
+                if (right - left + 1 == k)
+                {
+                    res = Math.Min(res, recolor);
+                    if (blocks[left] == 'W')
+                    {
+                        recolor--;
+                    }
+                    left++;
+                }
             }
 
-            return k - operationList.Max();
+            return res;
         }
     }
 }
