@@ -2,6 +2,6 @@
 using leetcode2025.Problems.Medium;
 
 
-var i = GreatestCommonDivisorofStrings.GcdOfStrings("TAUXXTAUXXTAUXXTAUXXTAUXX", "TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX");
+var i = MinimumRecolorstoGetKConsBlocks.MinimumRecolors("WBBWWBBWBW", 7);
 
 Console.WriteLine(i);
