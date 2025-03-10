@@ -2,6 +2,6 @@
 using leetcode2025.Problems.Medium;
 
 
-var i = MinimumRecolorstoGetKConsBlocks.MinimumRecolors("WBBWWBBWBW", 7);
+var i = ReverseVowelsofString.ReverseVowels("IceCreAm");
 
 Console.WriteLine(i);
