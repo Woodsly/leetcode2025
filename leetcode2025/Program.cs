@@ -2,6 +2,6 @@
 using leetcode2025.Problems.Medium;
 
 
-var i = ReverseVowelsofString.ReverseVowels("IceCreAm");
+var i = ReverseVowelsofString.ReverseVowels("a good   example");
 
 Console.WriteLine(i);
